@@ -1,0 +1,11 @@
+1. Upload script.
+2. Create and import database: database.sql
+3. Edit config: common/config.php
+define('DB_HOST', 'localhost');
+define('DB_USER', 'cm9vdA=='');
+define('DB_PASSWORD', 'cm9vdA=='');
+define('DB_NAME', 'unimatrix');
+define('DB_TBLPREFIX', 'netw');
+
+!!Where DB_USER, DB_PASSWORD must be encoded in base64!!
+4. Login details: admin:admin
